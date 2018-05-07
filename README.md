@@ -14,7 +14,7 @@ You will need [Leiningen][] 2.0.0 or above installed.
 
 ## Demo
 
-**start up two servers*
+**start up two servers**
 
 ```
 $ lein ring server-headless 3000
@@ -69,7 +69,7 @@ curl http://localhost:3001/mine | jq .
 }
 ```
 
-**chain (request to port 3001) **
+**chain (request to port 3001)**
 
 ```
 curl http://localhost:3001/chain | jq .
